@@ -461,7 +461,7 @@ function renderPage(){
     const n = parseInt(page.split('-')[1], 10);
     html = projectView(PROJECTS[n-1]);
   }
-  app.innerHTML = html + footer();
+  app.innerHTML = html;
 
   app.querySelectorAll('[data-link]').forEach(el=>{
     const url = routeToUrl(el.getAttribute('data-link'));
