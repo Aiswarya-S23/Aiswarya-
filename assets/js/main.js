@@ -4,7 +4,7 @@ const IMG='';
 
 const PROJECTS=[
   {
-    id:'sum26', num:'01', coverIn:'project-1/proj-1-cover reveal in.jpg', gallery:['project-1/Project 1.004.webp','project-1/Project 1.005.webp','project-1/Project 1.006.webp','project-1/Project 1.007.webp','project-1/Project 1.008.webp','project-1/Project 1.009.webp','project-1/Project 1.010.webp','project-1/Project 1.011.webp','project-1/Project 1.012.webp','project-1/Project 1.013.webp','project-1/Project 1.014.webp','project-1/Project 1.015.webp','project-1/Project 1.016.webp','project-1/Project 1.017.webp','project-1/Project 1.018.webp','project-1/Project 1.019.webp','project-1/Project 1.020.webp','project-1/Project 1.021.webp','project-1/Project 1.022.webp','project-1/Project 1.023.webp','project-1/Project 1.024.webp','project-1/Project 1.025.webp','project-1/Project 1.026.webp','project-1/Project 1.027.webp','project-1/Project 1.028.webp','project-1/Project 1.029.webp','project-1/Project 1.030.webp','project-1/Project 1.031.webp','project-1/Project 1.032.webp','project-1/Project 1.033.webp','project-1/Project 1.034.webp','project-1/Project 1.035.webp','project-1/Project 1.036.webp','project-1/Project 1.037.webp','project-1/Project 1.038.webp','project-1/Project 1.039.webp','project-1/Project 1.040.webp','project-1/Project 1.041.webp','project-1/Project 1.042.webp'],
+    id:'sum26', num:'01', coverIn:'project-1/proj-1-cover reveal in.jpg', about:'<p><b>Key Creative Elements Inside:</b></p><p><b>Concept Foundations:</b> Mood Boards, Curated Seasonal Color Palettes & Print Inspiration Boards.</p><p><b>Technical Design:</b> Production-Ready CAD Technical Sheets & Embellishment Artwork Specifications.</p><p><b>Visual Presentation:</b> Advanced AI Model Concept Simulations for Realistic Commercial Visualization.</p>', gallery:['project-1/Project 1.004.webp','project-1/Project 1.005.webp','project-1/Project 1.006.webp','project-1/Project 1.007.webp','project-1/Project 1.008.webp','project-1/Project 1.009.webp','project-1/Project 1.010.webp','project-1/Project 1.011.webp','project-1/Project 1.012.webp','project-1/Project 1.013.webp','project-1/Project 1.014.webp','project-1/Project 1.015.webp','project-1/Project 1.016.webp','project-1/Project 1.017.webp','project-1/Project 1.018.webp','project-1/Project 1.019.webp','project-1/Project 1.020.webp','project-1/Project 1.021.webp','project-1/Project 1.022.webp','project-1/Project 1.023.webp','project-1/Project 1.024.webp','project-1/Project 1.025.webp','project-1/Project 1.026.webp','project-1/Project 1.027.webp','project-1/Project 1.028.webp','project-1/Project 1.029.webp','project-1/Project 1.030.webp','project-1/Project 1.031.webp','project-1/Project 1.032.webp','project-1/Project 1.033.webp','project-1/Project 1.034.webp','project-1/Project 1.035.webp','project-1/Project 1.036.webp','project-1/Project 1.037.webp','project-1/Project 1.038.webp','project-1/Project 1.039.webp','project-1/Project 1.040.webp','project-1/Project 1.041.webp','project-1/Project 1.042.webp'],
     title:['Women\u2019s Wear Collection ','<b>SUM 26</b>'],
     titleFlat:'Women\u2019s Wear Collection \u2014 SUM 26',
     category:'Women\u2019s Fashion Design',
@@ -199,7 +199,7 @@ function homeView(){
             with trends, creating unique designs, and adding a touch of creativity to
             everything I make \u2014 because fashion should always feel fun, expressive,
             and personal.</p>
-          <div class="sign reveal"><span class="ln"></span>Aiswarya, Fashion Designer & Creative Director</div>
+          <div class="sign reveal"><span class="ln"></span>Aiswarya, Fashion Designer & Creative Designer</div>
         </div>
       </div>
     </section>
@@ -316,7 +316,7 @@ function projectView(p){
     <div class="wrap">
       <div class="proj-cover reveal">${frame(p.coverIn||p.cover,p.titleFlat)}</div>
 
-      <div class="proj-intro reveal"><p>${p.intro}</p></div><div class="proj-about reveal" style="display:none;">
+      <div class="proj-intro reveal">${p.about||`<p>${p.intro}</p>`}</div><div class="proj-about reveal" style="display:none;">
         <div>
           <div class="pa-label">Overview</div>
           <ul>${p.process.map((s,i)=>`<li><span class="li-n">0${i+1}</span>${s}</li>`).join('')}</ul>
