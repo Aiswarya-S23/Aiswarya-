@@ -8,7 +8,7 @@ const PROJECTS=[
     title:['Women\u2019s Wear Collection ','<b>SUM 26</b>'],
     titleFlat:'Women\u2019s Wear Collection \u2014 SUM 26',
     category:'Women\u2019s Fashion Design',
-    cover:'sum_mood_riviera.jpg',
+    cover:'home/Project 1 cover.webp',
     home:true,
     blurb:'A sunlit French-Riviera womenswear story carried from mood board to production-ready CAD, embellishment artwork and AI-rendered commercial visualisation.',
     intro:'A complete womenswear development for Summer 2026 \u2014 built from concept foundations through production-ready technical design and advanced AI model visualisation.',
@@ -38,7 +38,7 @@ const PROJECTS=[
     title:['Research & Product ','<b>Developments</b>'],
     titleFlat:'Research & Product Developments',
     category:'Men\u2019s \u00b7 Women\u2019s \u00b7 Kidswear',
-    cover:'rpd_mens_sailing.jpg',
+    cover:'home/Project 2 cover.webp',
     home:true,
     blurb:'Market-driven design across men\u2019s, women\u2019s and kidswear \u2014 trend-forecast led, competitor-analysed and engineered for real-world buyers.',
     intro:'Product development across three categories \u2014 grounded in market intelligence, competitor analysis and forward trend forecasting from WGSN and Fashion Snoops.',
@@ -64,7 +64,7 @@ const PROJECTS=[
     title:['Visual ','<b>Merchandising</b>'],
     titleFlat:'Visual Merchandising',
     category:'Fashion Retail & Spatial Styling',
-    cover:'vm_showroom_wide.jpg',
+    cover:'home/Project 3 Cover.webp',
     home:true,
     blurb:'Showroom environments built for buying visits \u2014 spatial fashion presentation, retail storytelling and architectural product-display systems.',
     intro:'Showroom set-up and spatial styling for buying visits \u2014 retail storytelling translated into architecturally composed product display.',
@@ -190,7 +190,7 @@ function homeView(){
   <section class="view-home">
     <section class="section wrap">
       <div class="intro">
-        <div class="intro-photo reveal">${frame('aiswarya_dp.jpg','Aiswarya \u2014 Fashion Designer')}</div>
+        <div class="intro-photo reveal">${frame('home/aiswarya_dp.webp','Aiswarya \u2014 Fashion Designer')}</div>
         <div class="intro-copy">
           <div class="eyebrow reveal">Hello</div>
           <h2 class="reveal">I\u2019m <b>Aiswarya</b></h2>
@@ -209,7 +209,7 @@ function homeView(){
         <h2 class="reveal">Brand <b>Experience</b></h2>
         <div class="scount reveal">Premium Global Brands</div>
       </div>
-      <div class="reveal">${frame('brand_experience.jpg','Brand Experience')}</div>
+      <div class="reveal">${frame('home/brand_experience.webp','Brand Experience')}</div>
     </section>
 
     <section class="section wrap" style="padding-top:0;">
