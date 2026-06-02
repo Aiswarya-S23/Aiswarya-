@@ -34,7 +34,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'research', num:'02', gallery:[],
+    id:'research', num:'02', coverIn:'project-2/proj-2-cover reveal in.webp', gallery:['project-2/ChatGPT Image Jun 2, 2026, 07_49_32 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_49_55 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_49_58 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_00 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_02 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_04 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_07 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_47 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_53 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_59 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_04 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_07 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_10 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_15 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_22 PM.webp'],
     title:['Research & Product ','<b>Developments</b>'],
     titleFlat:'Research & Product Developments',
     category:'Men\u2019s \u00b7 Women\u2019s \u00b7 Kidswear',
@@ -60,7 +60,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'merch', num:'03', gallery:[],
+    id:'merch', num:'03', coverIn:'project-3/proj-3-cover reveal in.webp', gallery:['project-3/Project 3 JPEG.004.webp','project-3/Project 3 JPEG.005.webp','project-3/Project 3 JPEG.006.webp'],
     title:['Visual ','<b>Merchandising</b>'],
     titleFlat:'Visual Merchandising',
     category:'Fashion Retail & Spatial Styling',
@@ -82,7 +82,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'beyond', num:'04', gallery:[],
+    id:'beyond', num:'04', coverIn:'project-4/proj-4-cover reveal in.webp', gallery:['project-4/Project 4 JPEG.002.webp','project-4/Project 4 JPEG.003.webp','project-4/Project 4 JPEG.004.webp','project-4/Project 4 JPEG.005.webp','project-4/Project 4 JPEG.006.webp','project-4/Project 4 JPEG.007.webp','project-4/Project 4 JPEG.008.webp','project-4/Project 4 JPEG.009.webp','project-4/Project 4 JPEG.010.webp','project-4/Project 4 JPEG.011.webp','project-4/Project 4 JPEG.012.webp','project-4/Project 4 JPEG.013.webp','project-4/Project 4 JPEG.014.webp','project-4/Project 4 JPEG.015.webp','project-4/Project 4 JPEG.016.webp','project-4/Project 4 JPEG.017.webp','project-4/Project 4 JPEG.018.webp','project-4/Project 4 JPEG.019.webp','project-4/Project 4 JPEG.020.webp','project-4/Project 4 JPEG.021.webp','project-4/Project 4 JPEG.022.webp','project-4/Project 4 JPEG.023.webp','project-4/Project 4 JPEG.024.webp','project-4/Project 4 JPEG.025.webp','project-4/Project 4 JPEG.026.webp'],
     title:['Beyond ','<b>Basics</b>'],
     titleFlat:'Beyond Basics',
     category:'Uniform Design & Lifestyle Apparel',
@@ -108,7 +108,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'pack', num:'05', gallery:[],
+    id:'pack', num:'05', coverIn:'project-5/proj-5-cover reveal in.webp', gallery:['project-5/Project 5 JPEG.001.webp','project-5/Project 5 JPEG.003.webp','project-5/Project 5 JPEG.004.webp','project-5/Project 5 JPEG.005.webp','project-5/Project 5 JPEG.006.webp','project-5/Project 5 JPEG.007.webp','project-5/Project 5 JPEG.008.webp','project-5/Project 5 JPEG.009.webp','project-5/Project 5 JPEG.010.webp','project-5/Project 5 JPEG.011.webp'],
     title:['The Pack ','<b>Edit</b>'],
     titleFlat:'The Pack Edit',
     category:'Accessories Design',
@@ -123,7 +123,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'freelance', num:'06', gallery:[],
+    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.001.webp','project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp','project-6/Project 6 JPEG.008.webp','project-6/Project 6 JPEG.009.webp','project-6/Project 6 JPEG.010.webp','project-6/Project 6 JPEG.011.webp','project-6/Project 6 JPEG.012.webp'],
     title:['Freelance ','<b>Work</b>'],
     titleFlat:'Freelance Work',
     category:'Freelance Creative Projects',
