@@ -4,7 +4,7 @@ const IMG='';
 
 const PROJECTS=[
   {
-    id:'sum26', num:'01',
+    id:'sum26', num:'01', gallery:[],
     title:['Women\u2019s Wear Collection ','<b>SUM 26</b>'],
     titleFlat:'Women\u2019s Wear Collection \u2014 SUM 26',
     category:'Women\u2019s Fashion Design',
@@ -34,7 +34,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'research', num:'02',
+    id:'research', num:'02', gallery:[],
     title:['Research & Product ','<b>Developments</b>'],
     titleFlat:'Research & Product Developments',
     category:'Men\u2019s \u00b7 Women\u2019s \u00b7 Kidswear',
@@ -60,7 +60,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'merch', num:'03',
+    id:'merch', num:'03', gallery:[],
     title:['Visual ','<b>Merchandising</b>'],
     titleFlat:'Visual Merchandising',
     category:'Fashion Retail & Spatial Styling',
@@ -82,7 +82,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'beyond', num:'04',
+    id:'beyond', num:'04', gallery:[],
     title:['Beyond ','<b>Basics</b>'],
     titleFlat:'Beyond Basics',
     category:'Uniform Design & Lifestyle Apparel',
@@ -108,7 +108,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'pack', num:'05',
+    id:'pack', num:'05', gallery:[],
     title:['The Pack ','<b>Edit</b>'],
     titleFlat:'The Pack Edit',
     category:'Accessories Design',
@@ -123,7 +123,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'freelance', num:'06',
+    id:'freelance', num:'06', gallery:[],
     title:['Freelance ','<b>Work</b>'],
     titleFlat:'Freelance Work',
     category:'Freelance Creative Projects',
@@ -316,7 +316,7 @@ function projectView(p){
     <div class="wrap">
       <div class="proj-cover reveal">${frame(p.cover,p.titleFlat)}</div>
 
-      <div class="proj-about reveal">
+      <div class="proj-intro reveal"><p>${p.intro}</p></div><div class="proj-about reveal" style="display:none;">
         <div>
           <div class="pa-label">Overview</div>
           <ul>${p.process.map((s,i)=>`<li><span class="li-n">0${i+1}</span>${s}</li>`).join('')}</ul>
@@ -327,7 +327,7 @@ function projectView(p){
         </div>
       </div>
 
-      <div class="blocks">${blocks}</div>
+      <div class="blocks">${(p.gallery||[]).map(g=>`<div class="reveal"><div class="block-single">${frame(g,'')}</div></div>`).join('')}</div>
 
       <div class="next reveal" data-link="project:${next.id}">
         <div>
