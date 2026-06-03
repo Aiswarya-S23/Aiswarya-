@@ -357,10 +357,11 @@ function aboutView(){
             styling to AI-rendered visualisation, her work treats every collection
             as a complete, considered story.</p>
         </div>
-        <div class="about-portrait reveal">${frame('sum_ai_floral.jpg','Aiswarya')}</div>
+        <div class="about-portrait reveal">${frame('home/aiswarya_dp.webp','Aiswarya')}</div>
       </div>
     </header>
 
+    <section class="section wrap"><div class="reveal">${frame('about/Resume-aiswarya.avif','Aiswarya resume','about-resume')}</div></section>
     <section class="section wrap" style="padding-top:clamp(40px,5vw,70px);">
       <div class="eyebrow reveal">Disciplines \u2014 What I Do</div>
       <div class="roles">
