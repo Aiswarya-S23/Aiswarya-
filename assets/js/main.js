@@ -127,7 +127,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.001.webp','project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp'],
+    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp'],
     title:['Freelance ','<b>Work</b>'],
     titleFlat:'Freelance Work',
     category:'Freelance Creative Projects',
