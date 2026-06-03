@@ -4,7 +4,7 @@ const IMG='';
 
 const PROJECTS=[
   {
-    id:'sum26', num:'01', coverIn:'project-1/proj-1-cover reveal in.webp', about:'<p><b>Key Creative Elements Inside:</b></p><p><b>Concept Foundations:</b> Mood Boards, Curated Seasonal Color Palettes & Print Inspiration Boards.</p><p><b>Technical Design:</b> Production-Ready CAD Technical Sheets & Embellishment Artwork Specifications.</p><p><b>Visual Presentation:</b> Advanced AI Model Concept Simulations for Realistic Commercial Visualization.</p>', gallery:['project-1/Project 1.004.webp','project-1/Project 1.005.webp','project-1/Project 1.006.webp','project-1/Project 1.007.webp','project-1/Project 1.008.webp','project-1/Project 1.009.webp','project-1/Project 1.010.webp','project-1/Project 1.011.webp','project-1/Project 1.012.webp','project-1/Project 1.013.webp','project-1/Project 1.014.webp','project-1/Project 1.015.webp','project-1/Project 1.016.webp','project-1/Project 1.017.webp','project-1/Project 1.018.webp','project-1/Project 1.019.webp','project-1/Project 1.020.webp','project-1/Project 1.021.webp','project-1/Project 1.022.webp','project-1/Project 1.023.webp','project-1/Project 1.024.webp','project-1/Project 1.025.webp','project-1/Project 1.026.webp','project-1/Project 1.027.webp','project-1/Project 1.028.webp','project-1/Project 1.029.webp','project-1/Project 1.030.webp','project-1/Project 1.031.webp','project-1/Project 1.032.webp','project-1/Project 1.033.webp','project-1/Project 1.034.webp','project-1/Project 1.035.webp','project-1/Project 1.036.webp','project-1/Project 1.037.webp','project-1/Project 1.038.webp','project-1/Project 1.039.webp','project-1/Project 1.040.webp','project-1/Project 1.041.webp','project-1/Project 1.042.webp'],
+    id:'sum26', num:'01', coverIn:'project-1/proj-1-cover reveal in.webp', about:'<p><b>Key Creative Elements Inside:</b></p><p><b>Concept Foundations:</b> Mood Boards, Curated Seasonal Color Palettes, Print Inspiration & Embellishment Direction</p><p><b>Production-Ready Design:</b> Technical CAD sheets, embellishment specifications and pattern engineering</p><p><b>Commercial Visualisation:</b> AI-rendered fashion model concepts and realistic product simulation</p><p>A complete seasonal story from concept through to commercial-ready CAD and visualised product.</p>',
     title:['Women\u2019s Wear Collection ','<b>SUM 26</b>'],
     titleFlat:'Women\u2019s Wear Collection \u2014 SUM 26',
     category:'Women\u2019s Fashion Design',
@@ -34,17 +34,17 @@ const PROJECTS=[
     ]
   },
   {
-    id:'research', num:'02', coverIn:'project-2/proj-2-cover reveal in.webp', gallery:['project-2/ChatGPT Image Jun 2, 2026, 07_49_32 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_49_55 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_49_58 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_00 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_02 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_04 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_50_07 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_47 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_53 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_35_59 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_04 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_07 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_10 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_15 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_36_22 PM.webp'],
+    id:'research', num:'02', coverIn:'project-2/proj-2-cover reveal in.webp', gallery:['project-2/ChatGPT Image Jun 2, 2026, 07_49_32 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 07_49_55 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_11_51 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_11_57 PM.webp','project-2/ChatGPT Image Jun 2, 2026, 08_16_16 PM.webp'],
     title:['Research & Product ','<b>Developments</b>'],
     titleFlat:'Research & Product Developments',
     category:'Men\u2019s \u00b7 Women\u2019s \u00b7 Kidswear',
     cover:'home/proj-2-cover.webp',
     home:true,
     blurb:'Market-driven design across men\u2019s, women\u2019s and kidswear \u2014 trend-forecast led, competitor-analysed and engineered for real-world buyers.',
-    about:'<p><b>Market-Driven Design:</b> Developed for Men’s, Women’s, and Kids’ categories using market intelligence and competitor analysis.</p><p><b>Trend Forecasting:</b> Built around future fabric, color, silhouette, and graphic trends from WGSN and Fashion Snoops.</p><p><b>Commercial Success:</b> Engineered for real-world buyers, with some select styles already capturing bulk production orders.</p>',
+    about:'<p><b>Market-Driven Design:</b> Developed for Men\'s, Women\'s, and Kids\' categories using market intelligence and competitor analysis.</p><p><b>Trend Forecasting:</b> Built around forward trend signals from industry leaders WGSN and Fashion Snoops.</p><p><b>Product Categories:</b> Menswear, Womenswear and Kidswear developed as cohesive product lines informed by real market demand.</p>',
    intro:'Product development across three categories \u2014 grounded in market intelligence, competitor analysis and forward trend forecasting from WGSN and Fashion Snoops.',
     lead:'Design built for <b>real buyers</b> \u2014 future fabric, colour, silhouette and graphic trends engineered into commercially successful product.',
-    process:['Market Intelligence & Competitor Analysis','Trend Forecasting \u2014 WGSN / Fashion Snoops','Menswear Development','Womenswear Development','Kidswear Development','Bulk Production Orders Secured'],
+    process:['Market Intelligence & Competitor Analysis','Trend Forecasting \u2014 WGSN / Fashion Snoops','Menswear Development','Womenswear Development','Kidswear Development','Bulk Production Order Specifications'],
     blocks:[
       {type:'single', img:'rpd_mens_sailing.jpg', t:'Graphic & Embroidery Development', i:'Menswear / 01'},
       {type:'pair', items:['rpd_womens_embellish.jpg','rpd_womens_lace.jpg']},
@@ -68,7 +68,7 @@ const PROJECTS=[
     cover:'home/proj-3-cover.webp',
     home:true,
     blurb:'Showroom environments built for buying visits \u2014 spatial fashion presentation, retail storytelling and architectural product-display systems.',
-    about:'<p><b>The Purpose:</b> Concept and execute specialized showroom environments for visiting global buyers across Men’s, Women’s, and Kids’ categories.</p><p><b>The Strategy:</b> Develop story-driven sample displays, layouts, and color stories tailored to each client’s unique identity.</p><p><b>The Goal:</b> Bridge the gap between initial product design and high-impact buyer presentation.</p>',
+    about:'<p><b>The Purpose:</b> Concept and execute specialized showroom environments for visiting global buyers across Men\'s, Women\'s, and Kids\' categories.</p><p><b>The Strategy:</b> Develop spatial layouts that tell the seasonal story while guiding the buyer\'s eye through every product category with intention and impact.</p><p><b>The Execution:</b> From prop selection and lighting direction to architectural merchandising layouts \u2014 retail as a strategic narrative device.</p>',
    intro:'Showroom set-up and spatial styling for buying visits \u2014 retail storytelling translated into architecturally composed product display.',
     lead:'The showroom as <b>narrative</b> \u2014 spatial composition, seasonal storytelling and product display engineered for the buyer\u2019s eye.',
     process:['Showroom Setup for Buying Visits','Spatial Fashion Presentation','Retail Storytelling','Product Display Systems','Seasonal Window Concepts','Architectural Merchandising Layouts'],
@@ -84,14 +84,14 @@ const PROJECTS=[
     ]
   },
   {
-    id:'beyond', num:'04', coverIn:'project-4/proj-4-cover reveal in.webp', gallery:['project-4/Project 4 JPEG.002.webp','project-4/Project 4 JPEG.003.webp','project-4/Project 4 JPEG.004.webp','project-4/Project 4 JPEG.005.webp','project-4/Project 4 JPEG.006.webp','project-4/Project 4 JPEG.007.webp','project-4/Project 4 JPEG.008.webp','project-4/Project 4 JPEG.009.webp','project-4/Project 4 JPEG.010.webp','project-4/Project 4 JPEG.011.webp','project-4/Project 4 JPEG.012.webp','project-4/Project 4 JPEG.013.webp','project-4/Project 4 JPEG.014.webp','project-4/Project 4 JPEG.015.webp','project-4/Project 4 JPEG.016.webp','project-4/Project 4 JPEG.017.webp','project-4/Project 4 JPEG.018.webp','project-4/Project 4 JPEG.019.webp','project-4/Project 4 JPEG.020.webp','project-4/Project 4 JPEG.021.webp','project-4/Project 4 JPEG.022.webp','project-4/Project 4 JPEG.023.webp','project-4/Project 4 JPEG.024.webp','project-4/Project 4 JPEG.025.webp','project-4/Project 4 JPEG.026.webp'],
+    id:'beyond', num:'04', coverIn:'project-4/proj-4-cover reveal in.webp', gallery:['project-4/Project 4 JPEG.002.webp','project-4/Project 4 JPEG.003.webp','project-4/Project 4 JPEG.004.webp','project-4/Project 4 JPEG.005.webp','project-4/Project 4 JPEG.006.webp'],
     title:['Beyond ','<b>Basics</b>'],
     titleFlat:'Beyond Basics',
     category:'Uniform Design & Lifestyle Apparel',
     cover:'home/proj-4-cover.webp',
     home:false,
     blurb:'Elevated utility wear \u2014 school uniforms and the Mango Hills Resort uniform collection, designed as premium lifestyle apparel systems.',
-    about:'<p>Explored uniform design beyond traditional basics through innovative, functional concepts, with branding as a key focus.</p><p>Designed user-focused uniforms for resort staff, school students, and faculty, enhancing comfort, identity, and brand presence.</p><p>Strengthened my skills in creating practical, visually appealing, and branding-driven uniform solutions.</p>',
+    about:'<p>Explored uniform design beyond traditional basics through innovative, functional concepts, with branding as a key focus.</p><p>Designed user-focused uniforms for resort staff, school environments and hospitality settings \u2014 treating uniform as a vehicle for brand identity and professional presence.</p>',
    intro:'Elevated utility wear \u2014 a full uniform programme for Mango Hills Resort spanning every operational department, plus school-uniform design.',
     lead:'Uniform as <b>identity</b> \u2014 utility wear elevated into premium, lifestyle-focused apparel systems for hospitality and education.',
     process:['School Uniform Design','Mango Hills Resort \u2014 Operations','F&B Service & Production','Kitchen Stewarding','Engineering & Technical Wear','City Hotel & Hill Destination Variants'],
@@ -111,14 +111,14 @@ const PROJECTS=[
     ]
   },
   {
-    id:'pack', num:'05', coverIn:'project-5/proj-5-cover reveal in.webp', gallery:['project-5/Project 5 JPEG.001.webp','project-5/Project 5 JPEG.003.webp','project-5/Project 5 JPEG.004.webp','project-5/Project 5 JPEG.005.webp','project-5/Project 5 JPEG.006.webp','project-5/Project 5 JPEG.007.webp','project-5/Project 5 JPEG.008.webp','project-5/Project 5 JPEG.009.webp','project-5/Project 5 JPEG.010.webp','project-5/Project 5 JPEG.011.webp'],
+    id:'pack', num:'05', coverIn:'project-5/proj-5-cover reveal in.webp', gallery:['project-5/Project 5 JPEG.003.webp','project-5/Project 5 JPEG.004.webp','project-5/Project 5 JPEG.005.webp','project-5/Project 5 JPEG.006.webp'],
     title:['The Pack ','<b>Edit</b>'],
     titleFlat:'The Pack Edit',
     category:'Accessories Design',
     cover:'home/proj-5-cover.webp',
     home:false,
     blurb:'A premium bag collection \u2014 product-focused editorial photography, leather textures and luxury object storytelling.',
-    about:'<p>Expanded my design journey into accessories, exploring bag design as a new and exciting creative challenge.</p><p>Created innovative school and retail bag concepts that combine functionality, user needs, and strong visual appeal.</p>',
+    about:'<p>Expanded my design journey into accessories, exploring bag design as a new and exciting creative challenge.</p><p>Created innovative school and retail bag concepts that combine function with design-forward aesthetics, exploring leather textures, hardware details and premium material storytelling.</p>',
    intro:'An accessories project \u2014 a premium bag collection developed as a product-focused campaign exploring leather, texture and form.',
     lead:'The object as <b>hero</b> \u2014 a bag collection developed through leather texture, product editorial and luxury campaign storytelling.',
     process:['Bag Collection Concept','Leather & Material Exploration','Premium Accessories Campaign','Product-Focused Photography','Luxury Object Storytelling','Collection Curation'],
@@ -127,14 +127,14 @@ const PROJECTS=[
     ]
   },
   {
-    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.001.webp','project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp','project-6/Project 6 JPEG.008.webp','project-6/Project 6 JPEG.009.webp','project-6/Project 6 JPEG.010.webp','project-6/Project 6 JPEG.011.webp','project-6/Project 6 JPEG.012.webp'],
+    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.001.webp','project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp'],
     title:['Freelance ','<b>Work</b>'],
     titleFlat:'Freelance Work',
     category:'Freelance Creative Projects',
     cover:'home/proj-6-cover.webp',
     home:false,
     blurb:'Diverse creative capability \u2014 brand identity and logo design, plus a plus-size gym-wear concept built on confidence and inclusive activewear styling.',
-    about:'<p>A collection of freelance projects, including logo design and creative problem-solving concepts.</p><p>Demonstrates my passion for exploring new challenges, developing innovative solutions, and continuously expanding my design skills.</p>',
+    about:'<p>A collection of freelance projects, including logo design and creative problem-solving concepts.</p><p>Demonstrates my passion for exploring new challenges, developing innovative solutions and expanding design capability across diverse briefs.</p>',
    intro:'A range of independent commissions \u2014 brand identity and logo design alongside an inclusive plus-size activewear concept.',
     lead:'Creative range \u2014 from <b>brand identity</b> to inclusive activewear, designed with bold, contemporary direction.',
     process:['Logo & Brand Identity Design','Packaging & Collateral','Plus-Size Gym Wear Concept','Inclusive Activewear Styling','CAD Development','Contemporary Brand Exploration'],
@@ -392,10 +392,10 @@ function contactView(){
       <a class="c-mail reveal" href="mailto:aishu23007@gmail.com">aishu23007@gmail.com</a>
       <div class="contact-icons reveal">
         <a class="ci" href="mailto:aishu23007@gmail.com" aria-label="Email" title="Email">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 7.5l8.5 6 8.5-6"/></svg>
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect><path d="M3 7 L12 13 L21 7"></path></svg>
         </a>
         <a class="ci" href="https://www.linkedin.com/in/aiswarya-s-93b354245/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5 2.5 2.5 0 0 1 .02-5zM3 9h4v12H3zM9 9h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.66 4.8 6.12V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21H9z"/></svg>
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1-.02 5 2.5 2.5 0 0 1 .02-5zM3 9h4v12H3zM9 9h3.83v1.64h.05c.53-1 1.84-2.05 3.79-2.05 4.04 0 4.78 2.66 4.78 6.13v7.28h-4v-6.42c0-1.52-.03-3.48-2.12-3.48-2.12 0-2.45 1.66-2.45 3.37v6.53H9V9z"></path></svg>
         </a>
       </div>
     </div>
