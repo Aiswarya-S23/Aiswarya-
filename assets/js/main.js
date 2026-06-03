@@ -41,7 +41,8 @@ const PROJECTS=[
     cover:'home/proj-2-cover.webp',
     home:true,
     blurb:'Market-driven design across men\u2019s, women\u2019s and kidswear \u2014 trend-forecast led, competitor-analysed and engineered for real-world buyers.',
-    intro:'Product development across three categories \u2014 grounded in market intelligence, competitor analysis and forward trend forecasting from WGSN and Fashion Snoops.',
+    about:'<p><b>Market-Driven Design:</b> Developed for Men’s, Women’s, and Kids’ categories using market intelligence and competitor analysis.</p><p><b>Trend Forecasting:</b> Built around future fabric, color, silhouette, and graphic trends from WGSN and Fashion Snoops.</p><p><b>Commercial Success:</b> Engineered for real-world buyers, with some select styles already capturing bulk production orders.</p>',
+   intro:'Product development across three categories \u2014 grounded in market intelligence, competitor analysis and forward trend forecasting from WGSN and Fashion Snoops.',
     lead:'Design built for <b>real buyers</b> \u2014 future fabric, colour, silhouette and graphic trends engineered into commercially successful product.',
     process:['Market Intelligence & Competitor Analysis','Trend Forecasting \u2014 WGSN / Fashion Snoops','Menswear Development','Womenswear Development','Kidswear Development','Bulk Production Orders Secured'],
     blocks:[
@@ -67,7 +68,8 @@ const PROJECTS=[
     cover:'home/proj-3-cover.webp',
     home:true,
     blurb:'Showroom environments built for buying visits \u2014 spatial fashion presentation, retail storytelling and architectural product-display systems.',
-    intro:'Showroom set-up and spatial styling for buying visits \u2014 retail storytelling translated into architecturally composed product display.',
+    about:'<p><b>The Purpose:</b> Concept and execute specialized showroom environments for visiting global buyers across Men’s, Women’s, and Kids’ categories.</p><p><b>The Strategy:</b> Develop story-driven sample displays, layouts, and color stories tailored to each client’s unique identity.</p><p><b>The Goal:</b> Bridge the gap between initial product design and high-impact buyer presentation.</p>',
+   intro:'Showroom set-up and spatial styling for buying visits \u2014 retail storytelling translated into architecturally composed product display.',
     lead:'The showroom as <b>narrative</b> \u2014 spatial composition, seasonal storytelling and product display engineered for the buyer\u2019s eye.',
     process:['Showroom Setup for Buying Visits','Spatial Fashion Presentation','Retail Storytelling','Product Display Systems','Seasonal Window Concepts','Architectural Merchandising Layouts'],
     blocks:[
@@ -89,7 +91,8 @@ const PROJECTS=[
     cover:'home/proj-4-cover.webp',
     home:false,
     blurb:'Elevated utility wear \u2014 school uniforms and the Mango Hills Resort uniform collection, designed as premium lifestyle apparel systems.',
-    intro:'Elevated utility wear \u2014 a full uniform programme for Mango Hills Resort spanning every operational department, plus school-uniform design.',
+    about:'<p>Explored uniform design beyond traditional basics through innovative, functional concepts, with branding as a key focus.</p><p>Designed user-focused uniforms for resort staff, school students, and faculty, enhancing comfort, identity, and brand presence.</p><p>Strengthened my skills in creating practical, visually appealing, and branding-driven uniform solutions.</p>',
+   intro:'Elevated utility wear \u2014 a full uniform programme for Mango Hills Resort spanning every operational department, plus school-uniform design.',
     lead:'Uniform as <b>identity</b> \u2014 utility wear elevated into premium, lifestyle-focused apparel systems for hospitality and education.',
     process:['School Uniform Design','Mango Hills Resort \u2014 Operations','F&B Service & Production','Kitchen Stewarding','Engineering & Technical Wear','City Hotel & Hill Destination Variants'],
     blocks:[
@@ -115,7 +118,8 @@ const PROJECTS=[
     cover:'home/proj-5-cover.webp',
     home:false,
     blurb:'A premium bag collection \u2014 product-focused editorial photography, leather textures and luxury object storytelling.',
-    intro:'An accessories project \u2014 a premium bag collection developed as a product-focused campaign exploring leather, texture and form.',
+    about:'<p>Expanded my design journey into accessories, exploring bag design as a new and exciting creative challenge.</p><p>Created innovative school and retail bag concepts that combine functionality, user needs, and strong visual appeal.</p>',
+   intro:'An accessories project \u2014 a premium bag collection developed as a product-focused campaign exploring leather, texture and form.',
     lead:'The object as <b>hero</b> \u2014 a bag collection developed through leather texture, product editorial and luxury campaign storytelling.',
     process:['Bag Collection Concept','Leather & Material Exploration','Premium Accessories Campaign','Product-Focused Photography','Luxury Object Storytelling','Collection Curation'],
     blocks:[
@@ -130,7 +134,8 @@ const PROJECTS=[
     cover:'home/proj-6-cover.webp',
     home:false,
     blurb:'Diverse creative capability \u2014 brand identity and logo design, plus a plus-size gym-wear concept built on confidence and inclusive activewear styling.',
-    intro:'A range of independent commissions \u2014 brand identity and logo design alongside an inclusive plus-size activewear concept.',
+    about:'<p>A collection of freelance projects, including logo design and creative problem-solving concepts.</p><p>Demonstrates my passion for exploring new challenges, developing innovative solutions, and continuously expanding my design skills.</p>',
+   intro:'A range of independent commissions \u2014 brand identity and logo design alongside an inclusive plus-size activewear concept.',
     lead:'Creative range \u2014 from <b>brand identity</b> to inclusive activewear, designed with bold, contemporary direction.',
     process:['Logo & Brand Identity Design','Packaging & Collateral','Plus-Size Gym Wear Concept','Inclusive Activewear Styling','CAD Development','Contemporary Brand Exploration'],
     blocks:[
