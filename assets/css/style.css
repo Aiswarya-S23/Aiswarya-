@@ -776,3 +776,6 @@ h1,h2,h3{letter-spacing:-.015em;}
 /* ===== Home strip + Open Work text in black ===== */
 .strip h3,.strip .btn-link{color:#000;}
 .strip .btn-link .ar,.strip .btn-link .ar::after{background:#000;border-color:#000;}
+
+/* ===== Project-detail intro: 40px bottom padding ===== */
+.proj-intro.reveal.in{padding-bottom:40px;}
