@@ -762,3 +762,9 @@ h1,h2,h3{letter-spacing:-.015em;}
   .reveal{filter:none;}
   html{scroll-behavior:auto;}
 }
+
+/* ===== Project-detail gallery hover: plain white, no gradient ===== */
+.view-project .frame:hover::before{opacity:0;}
+.view-project .frame:hover{box-shadow:0 0 0 1px var(--line),0 40px 70px -34px rgba(40,40,90,.25);}
+/* ===== Resume image reduced by 25% ===== */
+.about-resume{max-width:75%;margin-inline:auto;}
