@@ -384,7 +384,7 @@ function contactView(){
     <div class="contact wrap">
       <div class="eyebrow reveal">Contact \u2014 Let\u2019s Create</div>
       <h1 class="reveal">Start a<br><b>conversation.</b></h1>
-      <a class="c-mail reveal" href="mailto:hello@aiswarya.studio">hello@aiswarya.studio</a>
+      <a class="c-mail reveal" href="mailto:aishu23007@gmail.com">aishu23007@gmail.com</a>
       <div class="contact-grid">
         <div class="cg reveal">
           <div class="ct">Studio</div>
@@ -394,11 +394,11 @@ function contactView(){
         <div class="cg reveal">
           <div class="ct">Connect</div>
           <div class="cv"><a href="#">Instagram</a> &nbsp;/&nbsp;
-            <a href="#">LinkedIn</a> &nbsp;/&nbsp; <a href="#">Behance</a></div>
+            <a href="https://www.linkedin.com/in/aiswarya-s-93b354245/" target="_blank" rel="noopener">LinkedIn</a> &nbsp;/&nbsp; <a href="#">Behance</a></div>
         </div>
         <div class="cg reveal">
           <div class="ct">Enquiries</div>
-          <div class="cv"><a href="mailto:hello@aiswarya.studio">hello@aiswarya.studio</a><br>
+          <div class="cv"><a href="mailto:aishu23007@gmail.com">aishu23007@gmail.com</a><br>
             Portfolio & rate card on request.</div>
         </div>
       </div>
