@@ -79,22 +79,29 @@ a{color:inherit;text-decoration:none;}
 .nav-toggle{display:none;}
 
 @media(max-width:760px){
+  /* Mobile nav: full-screen overlay menu.
+     .nav has backdrop-filter which would trap a fixed child, so disable it here
+     so .nav-links can cover the full viewport. */
+  .nav{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(255,255,255,.96);}
   .nav-links{
-    position:fixed;inset:0;background:var(--bg);
+    position:fixed;inset:0;
+    width:100vw;height:100vh;height:100dvh;
+    background:var(--bg);
     flex-direction:column;align-items:center;justify-content:center;gap:8px;
-    transform:translateX(100%);transition:transform .5s var(--ease);
+    transform:translateX(100%);transition:transform .45s var(--ease);
+    z-index:1000;
   }
   .nav-links.open{transform:translateX(0);}
-  .nav-links a{font-size:24px;font-weight:300;padding:14px;}
+  .nav-links a{font-size:24px;font-weight:300;padding:14px;color:var(--ink);}
   .nav-toggle{
     display:flex;flex-direction:column;gap:5px;width:26px;
-    z-index:1001;cursor:pointer;
+    z-index:1002;cursor:pointer;
   }
   .nav-toggle span{height:1.6px;width:100%;background:var(--ink);
     transition:.35s var(--ease);}
-  .nav-toggle.open span:nth-child(1){transform:translateY(6.6px) rotate(45deg);}
-  .nav-toggle.open span:nth-child(2){opacity:0;}
-  .nav-toggle.open span:nth-child(3){transform:translateY(-6.6px) rotate(-45deg);}
+  .nav-toggle.open span:nth-child(1),.nav-toggle.active span:nth-child(1){transform:translateY(6.6px) rotate(45deg);}
+  .nav-toggle.open span:nth-child(2),.nav-toggle.active span:nth-child(2){opacity:0;}
+  .nav-toggle.open span:nth-child(3),.nav-toggle.active span:nth-child(3){transform:translateY(-6.6px) rotate(-45deg);}
 }
 
 /* ============ TRANSITION ============ */
