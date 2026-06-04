@@ -438,7 +438,6 @@ function aboutView(){
             <div class="ig-bar"><span class="ig-bar-l">Trend &amp; Product Research<em>84%</em></span><span class="ig-bar-t"><i style="--w:84%"></i></span></div>
             <div class="ig-bar"><span class="ig-bar-l">Mood Boards &amp; Concept<em>90%</em></span><span class="ig-bar-t"><i style="--w:90%"></i></span></div>
           </div>
-        </div>
           <div class="ig-card reveal">
             <h3 class="ig-h"><b>Software Skills</b></h3>
             <div class="ig-chips">
