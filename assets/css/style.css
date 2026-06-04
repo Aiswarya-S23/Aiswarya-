@@ -870,3 +870,9 @@ h1,h2,h3{letter-spacing:-.015em;}
 .view-work .frame::after{display:none;content:none;}
 .view-work .frame:hover{transform:none;box-shadow:none;}
 .view-work .frame img{object-fit:cover;border-radius:0;}
+
+/* About infographic: extra resume content (chips container + lists) */
+.ig-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
+.ig-list{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;}
+.ig-list li{position:relative;padding-left:20px;font-size:14px;color:var(--ink-soft);line-height:1.5;}
+.ig-list li::before{content:"";position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:99px;background-image:var(--iris);}
