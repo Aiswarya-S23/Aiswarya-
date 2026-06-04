@@ -157,7 +157,7 @@ const PROJECTS=[
 
 const ROLES=[
   {t:'Fashion Designer', d:'Four years across premium global apparel brands.'},
-  {t:'Creative Director', d:'Shaping concept, mood and visual direction end to end.'},
+  {t:'Creative Designer', d:'Shaping concept, mood and visual direction end to end.'},
   {t:'Visual Storyteller', d:'Translating collections into compelling fashion narrative.'},
   {t:'Concept Developer', d:'Building seasonal worlds from research to realisation.'},
   {t:'Apparel Specialist', d:'CAD, embellishment and production-ready technical design.'},
@@ -350,7 +350,7 @@ function projectView(p){
 function aboutView(){
   return `
   <section class="view-about">
-    <header class="page-head wrap" style="padding-bottom:clamp(40px,5vw,70px);">
+    <header class="page-head wrap" style="padding-bottom:clamp(18px,2.2vw,30px);">
       <div class="about-top">
         <div class="about-copy">
           <div class="eyebrow reveal">About \u2014 The Designer</div>
@@ -367,7 +367,6 @@ function aboutView(){
     </header>
 
     <section class="section wrap infographic">
-      <div class="eyebrow reveal">Resume \u2014 At a Glance</div>
       <div class="ig-stats reveal">
         <div class="ig-stat"><span class="ig-num">4<i>+</i></span><span class="ig-lbl">Years of professional experience</span></div>
         <div class="ig-stat"><span class="ig-num">15<i>+</i></span><span class="ig-lbl">Global brands designed for</span></div>
@@ -393,29 +392,6 @@ function aboutView(){
               <p class="ig-tl-note">Designed menswear, womenswear &amp; kidswear for global brands; led trend forecasting (WGSN, Fashion Snoops), mood boards and price-aligned collections.</p>
             </div>
           </div>
-        </div>
-        <div class="ig-col ig-side">
-          <div class="ig-card reveal">
-            <h3 class="ig-h"><b>Education</b></h3>
-            <div class="ig-edu"><span class="ig-edu-deg">BSc \u2014 Apparel Fashion Design</span><span class="ig-edu-org">NIFT-TEA College of Knitwear Fashion \u00b7 2019\u201322</span></div>
-            <div class="ig-edu"><span class="ig-edu-deg">Master in Graphic Design</span><span class="ig-edu-org">Adoro Multimedia Institute \u00b7 2016\u201317</span></div>
-            <div class="ig-edu"><span class="ig-edu-deg">Higher Secondary \u00b7 CBSE</span><span class="ig-edu-org">Amrita Vidyalayam \u00b7 2017\u201319</span></div>
-          </div>
-          <div class="ig-card reveal">
-            <h3 class="ig-h"><b>Strengths</b></h3>
-            <div class="ig-bar"><span class="ig-bar-l">Apparel Fashion Design<em>81%</em></span><span class="ig-bar-t"><i style="--w:81%"></i></span></div>
-            <div class="ig-bar"><span class="ig-bar-l">CAD &amp; Tech Packs<em>88%</em></span><span class="ig-bar-t"><i style="--w:88%"></i></span></div>
-            <div class="ig-bar"><span class="ig-bar-l">Trend &amp; Product Research<em>84%</em></span><span class="ig-bar-t"><i style="--w:84%"></i></span></div>
-            <div class="ig-bar"><span class="ig-bar-l">Mood Boards &amp; Concept<em>90%</em></span><span class="ig-bar-t"><i style="--w:90%"></i></span></div>
-          </div>
-        </div>
-      </div>
-      <div class="ig-brands reveal">
-        <span class="ig-brands-l">Brands</span>
-        ${BRANDS.map(b=>`<span class="ig-chip">${b}</span>`).join("")}
-      </div>
-      <div class="ig grid" style="margin-top:clamp(28px,4vw,44px)">
-        <div class="ig col ig-timeline reveal">
           <h3 class="ig-h"><b>Internships & Early Experience</b></h3>
           <div class="ig-tl">
             <div class="ig-tl-item">
@@ -448,7 +424,21 @@ function aboutView(){
             </div>
           </div>
         </div>
-        <div class="ig col ig-side">
+        <div class="ig-col ig-side">
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Education</b></h3>
+            <div class="ig-edu"><span class="ig-edu-deg">BSc \u2014 Apparel Fashion Design</span><span class="ig-edu-org">NIFT-TEA College of Knitwear Fashion \u00b7 2019\u201322</span></div>
+            <div class="ig-edu"><span class="ig-edu-deg">Master in Graphic Design</span><span class="ig-edu-org">Adoro Multimedia Institute \u00b7 2016\u201317</span></div>
+            <div class="ig-edu"><span class="ig-edu-deg">Higher Secondary \u00b7 CBSE</span><span class="ig-edu-org">Amrita Vidyalayam \u00b7 2017\u201319</span></div>
+          </div>
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Strengths</b></h3>
+            <div class="ig-bar"><span class="ig-bar-l">Apparel Fashion Design<em>81%</em></span><span class="ig-bar-t"><i style="--w:81%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">CAD &amp; Tech Packs<em>88%</em></span><span class="ig-bar-t"><i style="--w:88%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">Trend &amp; Product Research<em>84%</em></span><span class="ig-bar-t"><i style="--w:84%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">Mood Boards &amp; Concept<em>90%</em></span><span class="ig-bar-t"><i style="--w:90%"></i></span></div>
+          </div>
+        </div>
           <div class="ig-card reveal">
             <h3 class="ig-h"><b>Software Skills</b></h3>
             <div class="ig-chips">
