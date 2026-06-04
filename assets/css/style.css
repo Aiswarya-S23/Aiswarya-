@@ -876,3 +876,6 @@ h1,h2,h3{letter-spacing:-.015em;}
 .ig-list{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;}
 .ig-list li{position:relative;padding-left:20px;font-size:14px;color:var(--ink-soft);line-height:1.5;}
 .ig-list li::before{content:"";position:absolute;left:0;top:8px;width:8px;height:8px;border-radius:99px;background-image:var(--iris);}
+
+/* About infographic: solid black section titles (override iris gradient) */
+.ig-h b{background-image:none;-webkit-text-fill-color:var(--ink);color:var(--ink);animation:none;}
