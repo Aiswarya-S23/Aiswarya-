@@ -844,3 +844,16 @@ h1,h2,h3{letter-spacing:-.015em;}
   .ig-grid{grid-template-columns:1fr;gap:34px;}
 }
 @media(max-width:480px){.ig-stats{grid-template-columns:1fr 1fr;gap:12px;}.ig-stat{padding:20px 16px;}}
+
+/* ============================================================
+   HOME PAGE \u2014 remove white frame + blue gradient hover
+   (DP, project covers, brand experience) \u2014 images only
+   ============================================================ */
+.view-home .frame{
+  background:none;padding:0;border:none;border-radius:0;
+  box-shadow:none;transition:none;
+}
+.view-home .frame::before,
+.view-home .frame::after{display:none;content:none;}
+.view-home .frame:hover{transform:none;box-shadow:none;}
+.view-home .frame img{object-fit:cover;border-radius:0;}
