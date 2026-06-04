@@ -366,7 +366,55 @@ function aboutView(){
       </div>
     </header>
 
-    <section class="section wrap"><div class="reveal">${frame('about/Resume-aiswarya.avif','Aiswarya resume','about-resume')}</div></section>
+    <section class="section wrap infographic">
+      <div class="eyebrow reveal">Resume \u2014 At a Glance</div>
+      <div class="ig-stats reveal">
+        <div class="ig-stat"><span class="ig-num">4<i>+</i></span><span class="ig-lbl">Years of professional experience</span></div>
+        <div class="ig-stat"><span class="ig-num">15<i>+</i></span><span class="ig-lbl">Global brands designed for</span></div>
+        <div class="ig-stat"><span class="ig-num">3</span><span class="ig-lbl">Categories \u00b7 Men \u00b7 Women \u00b7 Kids</span></div>
+        <div class="ig-stat"><span class="ig-num">2</span><span class="ig-lbl">Senior design roles held</span></div>
+      </div>
+      <div class="ig-grid">
+        <div class="ig-col ig-timeline reveal">
+          <h3 class="ig-h"><b>Experience</b></h3>
+          <div class="ig-tl">
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2025 \u2014 Present</div>
+              <div class="ig-tl-role">Senior / Accessory Designer</div>
+              <div class="ig-tl-org">Advanced Clothing Concepts \u00b7 Coimbatore</div>
+              <p class="ig-tl-note">Driving innovative school-uniform apparel, accessory &amp; bag development, tech packs and end-to-end product launches for a new retail brand.</p>
+            </div>
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2022 \u2014 2025</div>
+              <div class="ig-tl-role">Fashion Designer / RNPD</div>
+              <div class="ig-tl-org">Eastman Exports Global Clothing \u00b7 Tirupur</div>
+              <p class="ig-tl-note">Designed menswear, womenswear &amp; kidswear for global brands; led trend forecasting (WGSN, Fashion Snoops), mood boards and price-aligned collections.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ig-col ig-side">
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Education</b></h3>
+            <div class="ig-edu"><span class="ig-edu-deg">BSc \u2014 Apparel Fashion Design</span><span class="ig-edu-org">NIFT-TEA College of Knitwear Fashion \u00b7 2019\u201322</span></div>
+            <div class="ig-edu"><span class="ig-edu-deg">Master in Graphic Design</span><span class="ig-edu-org">Adoro Multimedia Institute \u00b7 2016\u201317</span></div>
+            <div class="ig-edu"><span class="ig-edu-deg">Higher Secondary \u00b7 CBSE</span><span class="ig-edu-org">Amrita Vidyalayam \u00b7 2017\u201319</span></div>
+          </div>
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Strengths</b></h3>
+            <div class="ig-bar"><span class="ig-bar-l">Apparel Fashion Design<em>81%</em></span><span class="ig-bar-t"><i style="--w:81%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">CAD &amp; Tech Packs<em>88%</em></span><span class="ig-bar-t"><i style="--w:88%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">Trend &amp; Product Research<em>84%</em></span><span class="ig-bar-t"><i style="--w:84%"></i></span></div>
+            <div class="ig-bar"><span class="ig-bar-l">Mood Boards &amp; Concept<em>90%</em></span><span class="ig-bar-t"><i style="--w:90%"></i></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="ig-brands reveal">
+        <span class="ig-brands-l">Brands</span>
+        ${BRANDS.map(b=>`<span class="ig-chip">${b}</span>`).join("")}
+      </div>
+    </section>
     <section class="section wrap" style="padding-top:clamp(40px,5vw,70px);">
       <div class="eyebrow reveal">Disciplines \u2014 What I Do</div>
       <div class="roles">
