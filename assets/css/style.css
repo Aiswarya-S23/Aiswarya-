@@ -897,3 +897,10 @@ h1,h2,h3{letter-spacing:-.015em;}
 .view-about .about-portrait .frame::before{display:none}
 /* About: remove divider band above first discipline role */
 .view-about .roles .role:first-child{border-top:none}
+
+/* About: keep right-column skill cards stacked vertically below Strengths */
+.view-about .ig-col.ig-side{display:flex;flex-direction:column}
+.view-about .ig-col.ig-side .ig-card{width:100%}
+/* About: 24px gap between Internships & Early Experience timeline items */
+.view-about .ig-col.ig-timeline .ig-tl:last-of-type .ig-tl-item{padding-bottom:24px}
+.view-about .ig-col.ig-timeline .ig-tl:last-of-type .ig-tl-item:last-child{padding-bottom:0}
