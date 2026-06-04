@@ -670,7 +670,7 @@ body::after{
 .nav-links a:hover,.nav-links a.active{color:var(--ink);}
 .nav-links a::after{background:var(--iris);height:2px;box-shadow:0 0 12px rgba(106,75,255,.5);}
 .nav-toggle span{background:var(--accent);}
-@media(max-width:760px){.nav-links{background:var(--glass-2);backdrop-filter:blur(20px);}}
+@media(max-width:760px){.nav-links{background:var(--bg);backdrop-filter:none;-webkit-backdrop-filter:none;}}
 
 /* ---------- IMAGE FRAMES ---------- */
 .frame{
