@@ -111,7 +111,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'pack', num:'05', coverIn:'project-5/proj-5-cover reveal in.webp', gallery:['project-5/Project 5 JPEG.001.webp','project-5/Project 5 JPEG.003.webp','project-5/Project 5 JPEG.004.webp','project-5/Project 5 JPEG.005.webp','project-5/Project 5 JPEG.006.webp','project-5/Project 5 JPEG.007.webp','project-5/Project 5 JPEG.008.webp','project-5/Project 5 JPEG.009.webp','project-5/Project 5 JPEG.010.webp','project-5/Project 5 JPEG.011.webp'],
+    id:'pack', num:'05', coverIn:'project-5/proj-5-cover reveal in.webp', gallery:['project-5/Project 5 JPEG.003.webp','project-5/Project 5 JPEG.004.webp','project-5/Project 5 JPEG.005.webp','project-5/Project 5 JPEG.006.webp','project-5/Project 5 JPEG.007.webp','project-5/Project 5 JPEG.008.webp','project-5/Project 5 JPEG.009.webp','project-5/Project 5 JPEG.010.webp','project-5/Project 5 JPEG.011.webp'],
     title:['The Pack ','<b>Edit</b>'],
     titleFlat:'The Pack Edit',
     category:'Accessories Design',
@@ -127,7 +127,7 @@ const PROJECTS=[
     ]
   },
   {
-    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.001.webp','project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp','project-6/Project 6 JPEG.008.webp','project-6/Project 6 JPEG.009.webp','project-6/Project 6 JPEG.010.webp','project-6/Project 6 JPEG.011.webp','project-6/Project 6 JPEG.012.webp'],
+    id:'freelance', num:'06', coverIn:'project-6/proj-6-cover reveal in.webp', gallery:['project-6/Project 6 JPEG.004.webp','project-6/Project 6 JPEG.005.webp','project-6/Project 6 JPEG.006.webp','project-6/Project 6 JPEG.007.webp','project-6/Project 6 JPEG.008.webp','project-6/Project 6 JPEG.009.webp','project-6/Project 6 JPEG.010.webp','project-6/Project 6 JPEG.011.webp','project-6/Project 6 JPEG.012.webp'],
     title:['Freelance ','<b>Work</b>'],
     titleFlat:'Freelance Work',
     category:'Freelance Creative Projects',
@@ -362,7 +362,7 @@ function aboutView(){
             styling to AI-rendered visualisation, her work treats every collection
             as a complete, considered story.</p>
         </div>
-        <div class="about-portrait reveal">${frame('home/aiswarya_dp.webp','Aiswarya')}</div>
+        <div class="intro-photo reveal">${frame('home/aiswarya_dp.webp','Aiswarya')}</div>
       </div>
     </header>
 
