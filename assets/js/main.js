@@ -414,6 +414,97 @@ function aboutView(){
         <span class="ig-brands-l">Brands</span>
         ${BRANDS.map(b=>`<span class="ig-chip">${b}</span>`).join("")}
       </div>
+      <div class="ig grid" style="margin-top:clamp(28px,4vw,44px)">
+        <div class="ig col ig-timeline reveal">
+          <h3 class="ig-h"><b>Internships & Early Experience</b></h3>
+          <div class="ig-tl">
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2021</div>
+              <div class="ig-tl-role">Fashion Designer · Product Development</div>
+              <div class="ig-tl-org">Garment Manthra Pvt Ltd · Tirupur</div>
+              <p class="ig-tl-note">Managed multiple in-house brands; specialised in print development, fabric techniques and sustainable product development across activewear, sleepwear, co-ord sets & kidswear.</p>
+            </div>
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2021</div>
+              <div class="ig-tl-role">Craft Documentation Intern</div>
+              <div class="ig-tl-org">Metal Craft Artisans · Tirupur</div>
+              <p class="ig-tl-note">Documented traditional Indian metalwork and lost-wax casting, translating artisan workflows into technical reports bridging heritage crafts with modern commercial design.</p>
+            </div>
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2021</div>
+              <div class="ig-tl-role">Brand Study & Fashion Research Intern</div>
+              <div class="ig-tl-org">Honcho Baby · Coimbatore</div>
+              <p class="ig-tl-note">Led brand and consumer research for a baby apparel brand; analysed market trends, competitors and sustainable fashion via SWOT and survey data to optimise positioning.</p>
+            </div>
+            <div class="ig-tl-item">
+              <div class="ig-tl-dot"></div>
+              <div class="ig-tl-when">2021</div>
+              <div class="ig-tl-role">Industrial Visit Intern</div>
+              <div class="ig-tl-org">Dinesh Textile Mills · Tirupur</div>
+              <p class="ig-tl-note">Hands-on experience in garment manufacturing & merchandising — sampling, sourcing, production coordination, quality control and shipment processes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ig col ig-side">
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Software Skills</b></h3>
+            <div class="ig-chips">
+              <span class="ig-chip">Adobe Illustrator</span>
+              <span class="ig-chip">Adobe Photoshop</span>
+              <span class="ig-chip">3D Vista</span>
+              <span class="ig-chip">CorelDraw</span>
+              <span class="ig-chip">PowerPoint</span>
+              <span class="ig-chip">Excel</span>
+            </div>
+          </div>
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>AI Tools Proficiency</b></h3>
+            <div class="ig-chips">
+              <span class="ig-chip">ChatGPT</span>
+              <span class="ig-chip">Gemini</span>
+              <span class="ig-chip">XDesign</span>
+              <span class="ig-chip">Midjourney</span>
+              <span class="ig-chip">Claude</span>
+            </div>
+          </div>
+          <div class="ig-card reveal">
+            <h3 class="ig-h"><b>Core Skills</b></h3>
+            <div class="ig-chips">
+              <span class="ig-chip">Team Collaboration</span>
+              <span class="ig-chip">Communication</span>
+              <span class="ig-chip">Quick Learning</span>
+              <span class="ig-chip">Leadership</span>
+              <span class="ig-chip">Research & Analysis</span>
+              <span class="ig-chip">Creative Thinking</span>
+              <span class="ig-chip">Problem Solving</span>
+              <span class="ig-chip">Adaptability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ig grid" style="margin-top:clamp(20px,3vw,32px)">
+        <div class="ig col ig-card reveal">
+          <h3 class="ig-h"><b>Artistic Journey</b></h3>
+          <ul class="ig-list">
+            <li>Exploring modern aesthetics</li>
+            <li>Creating functional designs</li>
+            <li>Experimenting with textures & materials</li>
+            <li>Developing innovative concepts</li>
+            <li>Blending creativity with practicality</li>
+          </ul>
+        </div>
+        <div class="ig col ig-card reveal">
+          <h3 class="ig-h"><b>Spoken Languages</b></h3>
+          <div class="ig-chips">
+            <span class="ig-chip">English</span>
+            <span class="ig-chip">Malayalam</span>
+            <span class="ig-chip">Tamil</span>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section wrap" style="padding-top:clamp(40px,5vw,70px);">
       <div class="eyebrow reveal">Disciplines \u2014 What I Do</div>
