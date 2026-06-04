@@ -485,26 +485,6 @@ function aboutView(){
           </div>
         </div>
       </div>
-      <div class="ig grid" style="margin-top:clamp(20px,3vw,32px)">
-        <div class="ig col ig-card reveal">
-          <h3 class="ig-h"><b>Artistic Journey</b></h3>
-          <ul class="ig-list">
-            <li>Exploring modern aesthetics</li>
-            <li>Creating functional designs</li>
-            <li>Experimenting with textures & materials</li>
-            <li>Developing innovative concepts</li>
-            <li>Blending creativity with practicality</li>
-          </ul>
-        </div>
-        <div class="ig col ig-card reveal">
-          <h3 class="ig-h"><b>Spoken Languages</b></h3>
-          <div class="ig-chips">
-            <span class="ig-chip">English</span>
-            <span class="ig-chip">Malayalam</span>
-            <span class="ig-chip">Tamil</span>
-          </div>
-        </div>
-      </div>
     </section>
     <section class="section wrap" style="padding-top:clamp(40px,5vw,70px);">
       <div class="eyebrow reveal">Disciplines \u2014 What I Do</div>
