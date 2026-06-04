@@ -163,3 +163,9 @@ b,strong{ position:relative; }
 .intro-photo .frame{ border:4px solid var(--purple) !important; }
 .feat-visual .frame{ border:4px solid var(--pink) !important; }
 .wvisual .frame{ border:none !important; }
+
+.feat-visual .frame{ border:none !important; }
+.o2-cursor{ background:#000 !important; }
+.o2-ring{ border-color:#000 !important; }
+html, body, a, button, .frame{ cursor:auto !important; }
+.blocks .frame, .proj-cover .frame{ padding:0 !important; background:#ffffff !important; box-shadow:none !important; }
