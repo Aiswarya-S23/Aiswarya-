@@ -857,3 +857,16 @@ h1,h2,h3{letter-spacing:-.015em;}
 .view-home .frame::after{display:none;content:none;}
 .view-home .frame:hover{transform:none;box-shadow:none;}
 .view-home .frame img{object-fit:cover;border-radius:0;}
+
+/* ============================================================
+   WORK PAGE \u2014 remove white frame + blue gradient hover
+   (project cover images) \u2014 cover images only
+   ============================================================ */
+.view-work .frame{
+  background:none;padding:0;border:none;border-radius:0;
+  box-shadow:none;transition:none;
+}
+.view-work .frame::before,
+.view-work .frame::after{display:none;content:none;}
+.view-work .frame:hover{transform:none;box-shadow:none;}
+.view-work .frame img{object-fit:cover;border-radius:0;}
