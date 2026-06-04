@@ -779,3 +779,5 @@ h1,h2,h3{letter-spacing:-.015em;}
 
 /* ===== Project-detail intro: 40px bottom padding ===== */
 .proj-intro.reveal.in{padding-bottom:40px;}
+/* ===== Project-detail 'next' card: 24px padding all sides ===== */
+.next.reveal.in{padding:24px;}
