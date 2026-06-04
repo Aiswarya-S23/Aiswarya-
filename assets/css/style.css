@@ -904,3 +904,8 @@ h1,h2,h3{letter-spacing:-.015em;}
 /* About: 24px gap between Internships & Early Experience timeline items */
 .view-about .ig-col.ig-timeline .ig-tl:last-of-type .ig-tl-item{padding-bottom:24px}
 .view-about .ig-col.ig-timeline .ig-tl:last-of-type .ig-tl-item:last-child{padding-bottom:0}
+
+/* Nav logo: solid black, no gradient */
+.nav-logo{background:none;background-image:none;-webkit-background-clip:border-box;background-clip:border-box;-webkit-text-fill-color:var(--ink);color:var(--ink);animation:none}
+/* About: 40px space between Experience timeline and Internships heading */
+.view-about .ig-col.ig-timeline > .ig-h:nth-of-type(2){margin-top:40px}
