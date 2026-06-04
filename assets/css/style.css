@@ -882,4 +882,4 @@ h1,h2,h3{letter-spacing:-.015em;}
 
 /* Home page: scale profile image & featured project covers to 0.75x */
 .view-home .intro-photo{width:75%;justify-self:center;}
-.view-home .feat-visual{height:clamp(255px,34.5vw,420px);width:75%;justify-self:center;}
+.view-home .feat-visual{height:clamp(255px,34.5vw,420px);width:100%;justify-self:stretch;}
